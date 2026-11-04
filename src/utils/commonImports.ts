@@ -114,7 +114,7 @@ const socialMediaList = [
   },
 ];
 
-const contactEmail = "nithinraju242@gmail.com";
+const contactEmail = "nithinraju909@gmail.com";
 
 const projectData = [
   {
