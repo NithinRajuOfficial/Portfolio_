@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import resume from "../assets/Nithin_Raju_Resume.pdf";
 import { useIntersectionObserver } from "../hooks/useIntersectionObserver";
 
 const navLinks = [
@@ -40,7 +39,7 @@ export default function Navbar() {
         setActiveSection(visible[0].target.id);
       }
     },
-    { threshold: [0, 0.1, 0.25, 0.5, 0.75, 1] }
+    { threshold: [0, 0.1, 0.25, 0.5, 0.75, 1] },
   );
 
   useEffect(() => {
@@ -49,7 +48,7 @@ export default function Navbar() {
 
   const handleNavClick = (
     event: React.MouseEvent<HTMLAnchorElement>,
-    hash: string
+    hash: string,
   ) => {
     event.preventDefault();
     const element = document.getElementById(hash);
@@ -114,8 +113,9 @@ export default function Navbar() {
           ))}
           <li>
             <a
-              href={resume}
-              download="Nithin_Raju_Resume.pdf"
+              href="https://drive.google.com/file/d/1FUwUARk3KkgSCCufRIVN25nj-ODkBmPC/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:scale-110 duration-300 inline-block"
             >
               Resume

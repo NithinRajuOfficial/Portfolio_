@@ -36,8 +36,8 @@ import figma from "../assets/Tech/Figma.svg";
 import storybook from "../assets/Tech/Storybook.svg";
 import gsap from "../assets/Tech/GSAP.svg";
 import datocms from "../assets/Tech/DatoCMS.svg";
-// import dressUpLandImg from "../assets/Projects/dressuplandImg.webp";
-// import travelFreaksImg from "../assets/Projects/travelFreaks.webp";
+import dressUpLandImg from "../assets/Projects/dressuplandImg.webp";
+import travelFreaksImg from "../assets/Projects/travelFreaks.webp";
 import ecommerceImg from "../assets/Projects/ecommerce.webp";
 import movieMojoImg from "../assets/Projects/movieMojo.webp";
 import favorImg from "../assets/Projects/favor.webp";
@@ -117,33 +117,40 @@ const socialMediaList = [
 const contactEmail = "nithinraju242@gmail.com";
 
 const projectData = [
-  // {
-  //   name: "DressUpLand",
-  //   about:
-  //     "Basic e-commerce website made using Nodejs and Expressjs with server side rendering and database using MongoDb",
-  //   tech: ["Node.js", "Express.js", "MongoDB"],
-  //   img: dressUpLandImg,
-  //   // liveLink: "https://dressupland.store/",
-  //   codeLink: "https://github.com/NithinRajuOfficial/DressUpLand",
-  //   // liveSite: liveSiteLink,
-  //   github: githubLink,
-  // },
-  // {
-  //   name: "TravelFreaks",
-  //   about:
-  //     "Social media platform for travelers made using ReactJs in frontend and Nodejs, Expressjs in backend and database using MongoDb",
-  //   tech: ["React", "Node.js", "Express.js", "MongoDB"],
-  //   img: travelFreaksImg,
-  //   // liveLink: "https://travelfreaks.nithin.website/",
-  //   codeLink: "https://github.com/NithinRajuOfficial/Travel-Freaks",
-  //   // liveSite: liveSiteLink,
-  //   github: githubLink,
-  // },
+  {
+    name: "DressUpLand",
+    about:
+      "Basic e-commerce website made using Nodejs and Expressjs with server side rendering and database using MongoDb",
+    tech: ["Node.js", "Express.js", "MongoDB"],
+    img: dressUpLandImg,
+    // liveLink: "https://dressupland.store/",
+    codeLink: "https://github.com/NithinRajuOfficial/DressUpLand",
+    // liveSite: liveSiteLink,
+    github: githubLink,
+  },
+  {
+    name: "TravelFreaks",
+    about:
+      "Social media platform for travelers made using ReactJs in frontend and Nodejs, Expressjs in backend and database using MongoDb",
+    tech: ["React", "Node.js", "Express.js", "MongoDB"],
+    img: travelFreaksImg,
+    // liveLink: "https://travelfreaks.nithin.website/",
+    codeLink: "https://github.com/NithinRajuOfficial/Travel-Freaks",
+    // liveSite: liveSiteLink,
+    github: githubLink,
+  },
   {
     name: "StegoVault",
     about:
       "A browser-based tool that hides encrypted messages inside images using LSB steganography, encryption with pixel-level data embedding — all processed client-side with no server upload.",
-    tech: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS", "Web Crypto API (AES-256-GCM + PBKDF2)", "Canvas API"],
+    tech: [
+      "Next.js 16",
+      "React 19",
+      "TypeScript",
+      "Tailwind CSS",
+      "Web Crypto API (AES-256-GCM + PBKDF2)",
+      "Canvas API",
+    ],
     img: stegoVaultImg,
     // liveLink: "https://stego-vault.nithin.website/",
     codeLink: "https://github.com/NithinRajuOfficial/Stego_Vault",
@@ -154,7 +161,13 @@ const projectData = [
     name: "P2P_Stream",
     about:
       "A peer-to-peer streaming platform enabling users to share and view live content seamlessly.",
-    tech: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS", "WebTorrent"],
+    tech: [
+      "Next.js 16",
+      "React 19",
+      "TypeScript",
+      "Tailwind CSS",
+      "WebTorrent",
+    ],
     img: p2pStreamImg,
     // liveLink: "https://p2p-stream.nithin.website/",
     codeLink: "https://github.com/NithinRajuOfficial/P2P_Stream",
@@ -192,7 +205,8 @@ const projectData = [
     codeLink: "https://github.com/NithinRajuOfficial/Gravity_Teams",
     // liveSite: liveSiteLink,
     github: githubLink,
-  }, {
+  },
+  {
     name: "OneShop",
     about:
       "Basic e-commerce website made using ReactJs with client side rendering",
@@ -213,7 +227,7 @@ const projectData = [
     codeLink: "https://github.com/NithinRajuOfficial/MovieMojo",
     // liveSite: liveSiteLink,
     github: githubLink,
-  }
+  },
 ];
 
 export { techList, socialMediaList, projectData, contactEmail };
